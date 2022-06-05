@@ -1,0 +1,28 @@
+{
+  "name": "@sunil.sharma.999/reddit-basic-cli",
+  "version": "1.0.0",
+  "description": "Reddit cli that shows random title and url from subreddit page.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sunil.sharma.999",
+  "license": "ISC",
+  "bin": {
+    "reddit": "./index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunil-sharma-999/reddit-basic-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sunil-sharma-999/reddit-basic-cli/issues"
+  },
+  "homepage": "https://github.com/sunil-sharma-999/reddit-basic-cli#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.5",
+    "open": "^8.4.0",
+    "yargs": "^17.5.1"
+  }
+}
